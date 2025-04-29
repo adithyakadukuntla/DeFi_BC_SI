@@ -1,0 +1,4 @@
+POST http://localhost:5000/predict
+Content-Type: application/json
+
+{"amount": 3, "loan_volume": 100000, "volatility": 0.05, "demand": 200}
