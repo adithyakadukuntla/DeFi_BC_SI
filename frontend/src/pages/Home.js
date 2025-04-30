@@ -1,13 +1,14 @@
 import React from 'react';
-import LendForm from '../components/LendForm';
-import BorrowForm from '../components/BorrowForm';
+import DemoPanel from '../components/DemoPanel';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
-    <div>
-      <LendForm />
-      <hr />
-      <BorrowForm />
+    <div style={{ padding: '20px' }}>
+      <DemoPanel/>
+      <div>
+        <Footer/>
+      </div>
     </div>
   );
 };
