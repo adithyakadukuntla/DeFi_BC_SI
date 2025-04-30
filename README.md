@@ -1,13 +1,8 @@
-Sure! Here's the complete content you can copy directly into a `README.md` file for your project:
-
----
-
-```markdown
 # 🏦 DeFi Lending DApp — AI-Powered Borrowing Platform
 
 A decentralized lending platform powered by **blockchain** and **AI**. Users can borrow ETH from the platform at a dynamically predicted interest rate, calculated using a machine learning model based on financial parameters like loan amount, demand, and volatility.
 
----
+
 
 ## 🔍 Project Overview
 
