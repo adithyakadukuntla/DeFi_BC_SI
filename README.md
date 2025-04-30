@@ -93,8 +93,6 @@ npm start
 ## 📬 Feedback
 
 Feel free to contribute or suggest features! This is a growing project bridging **AI + Blockchain** for smarter finance.
-```
 
----
 
-Let me know if you'd like a downloadable version or want me to help you host it on GitHub!
+
