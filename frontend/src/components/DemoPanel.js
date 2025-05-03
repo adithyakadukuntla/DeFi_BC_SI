@@ -37,6 +37,16 @@ const DemoPanel = () => {
   return (
     <div className="demo-panel">
       
+      <div className="background-image">
+        <img src="https://ethereum.org/_next/image/?url=%2F_next%2Fstatic%2Fmedia%2Fhero.94a1ecc4.png&w=1920&q=75" alt="Background" className="background" style={{width:'100%',height:'100%'}} />
+       
+      </div>
+      
+      <div className="welcome-message text-center w-50 mx-auto pt-3" style={{color:'black'}}>
+        <h1 >Welcome to the AI-Optimized DeFi Lending Platform</h1>
+        <h5>Connect your wallet to start lending and borrowing.</h5>
+        <p>The leading platform for innovative apps and blockchain networks</p>
+      </div>
       
       <div className="account-info">
         <h2>Account Information</h2>
@@ -63,7 +73,7 @@ const DemoPanel = () => {
         <h3>Borrowing Pool</h3>
         <p><strong>Total Value Locked:</strong> {parseFloat(contractBalance).toFixed(4)} ETH</p>
       </div>
-      
+         
         
         <div className="action-card">
           <BorrowForm />
