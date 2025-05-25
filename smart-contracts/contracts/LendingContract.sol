@@ -49,7 +49,6 @@ contract LendingContract {
             timestamp: block.timestamp
         }));
     }
-
     function borrow(uint256 amount) external {
         bool success = false;
         uint256 rate = 0;
@@ -108,3 +107,5 @@ contract LendingContract {
     // Fallback function to receive ETH
     receive() external payable {}
 }
+
+
